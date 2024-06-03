@@ -27,7 +27,7 @@ function App() {
     setPages(prevPages => {
       const lastPageIndex = prevPages.length - 1;
       const updatedPages = [...prevPages];
-      updatedPages[lastPageIndex].content += ' Adding more content to the resume Adding more content to the resume Adding more content to the resume Adding more content to the resume...'; // Append content to the last page
+      updatedPages[lastPageIndex].content += ' Adding more content to the resume...'; // Append content to the last page
       return updatedPages;
     });
   };
